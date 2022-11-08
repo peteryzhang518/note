@@ -14,3 +14,6 @@
 - device driver 创建顺序
     1. 首先分区别，静态模块和动态模块
     2. 静态模块：静态模块从dtsi设备中，解析节点，然后module init，
+
+- device，单片机，嵌入式系统，都有bootloader，运行相应的程序也可以叫小系统，此系统可能只是用来刷机，刷我们的用户程序，那么，类是与鼠标这种外步的io设备，相机，这种android内部的有sensor的设备，这两种相对与linux是设备的东西有没有bootloader呢（烧录程序呢）,相机带sensor，这种设备应该是有自己的bootloader的，鼠标内部的主控芯片也相当与是一个单片机，这样来看，他应该也是有自己的bootloader的
+- 由此来看，几乎所有的设备都是有自己的单片机，有自己的bootloader的，
