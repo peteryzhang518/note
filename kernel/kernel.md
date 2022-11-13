@@ -21,8 +21,7 @@
     5. driver/base/init.c       device_init()
     6. driver/base/base.h       device_init()
     6. driver/base/core.c       device_init()   
-    
-
+- 这个函数过程几乎再这里完成,在platform_bus设备注册时，会再次返回调用这里device的注册函数，probe函数等等的一些内容,这个device仅仅是添加了全局变量，并且在dev文件夹下面注册相关文件
 
 
 
