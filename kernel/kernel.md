@@ -4,6 +4,7 @@
     2. grub
     3. grub建立虚拟系统，挂载kernel
         包括parse_dtb,解析设备树（”setup.c” : parse_dtb）,这一过程
+        这部分过程就是下面rc文件中设备树转换成凭atform设备的过程，也是device_create的
     4. 开始startkernel的函数调用
         kernel自检，加载硬件，driverdengdeng
         kernel中module的加载在kernel中非常靠后，rest_init->调用kernel_thread->调用init()->do_base_setup()->driver_init()
@@ -21,9 +22,9 @@
     5. driver/base/init.c       device_init()
     6. driver/base/base.h       device_init()
     6. driver/base/core.c       device_init()   
-- 这个函数过程几乎再这里完成,在platform_bus设备注册时，会再次返回调用这里device的注册函数，probe函数等等的一些内容,这个device仅仅是添加了全局变量，并且在dev文件夹下面注册相关文件
+- 这个函数过程几乎再这里完成,这个device仅仅是添加了全局变量，并且在dev文件夹下面注册相关文件
 
-
+- platform_bus在注册完之后，只是注册完成，在initcall中的deviceinitcall中，会调用platform_add_devices，然后会去向总线注册device,然后就回去匹配driver,去调用dirver的probe函数
 
 
 
