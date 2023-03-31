@@ -1,0 +1,70 @@
+#CMAKE_SOURCE_DIR, 主目录地址
+#PROJECT_SOURCE_DIR , 当前目录地址, 如果cmakelist里未写子目录就是子makefile，那么当前目录地址就是著目录地址
+# PROJECT_BINARY_DIR：当前工程的编译输出目录
+project(tc_sign)
+cmake_minimum_required(VERSION 3.1)
+set(PROJECT_PATH ${PROJECT_PATH} "/home/ts/code/d11/")
+SET(CMAKE_SYSTEM_NAME Android)#编译生成的文件所在的系统 
+SET(CMAKE_SYSTEM_PROCESSOR arm)#编译生成的文件所在系统的架构
+#set (CMAKE_LIBRARY_PATH ),环境变量的path,与systemroot这个命令有点像，用这个变量是添加如果用systemroot是还目录，如果是两个目录都有的话，添加可能会产生歧义（就是两个都有先用哪个，而sysroot直接是更换成交叉编译另一个系统的库）
+#SET(CMAKE_ANDROID_NDK   #生成文件所在系统如果是andorid，androidndk的位置，也可以写在环境变量里）
+SET(CMAKE_TOOLCHAIN_FILE /home/ts/android-ndk-r25c/build/cmake/android.toolchain.cmake)#所生成文件所在系统的编译链，就是编译用到的所有的工具
+SET(CMAKE_C_COMPILER clang)#边用所用到的编译器
+SET(CMAKE_CXX_COMPILER clang++)
+#SET(CMAKE_C_COMPILER /home/ts/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang)
+#SET(CMAKE_CXX_COMPILER /home/ts/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++)
+#SET(CMAKE_C_STANDARD #编译所用到的编译器的版本
+SET(CMAKE_CXX_STANDARD c++17)
+#SET(CMAKE_FIND_ROOT_PATH
+SET(CMAKE_SYSROOT /home/ts/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/sysroot)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pthread -DPCCTS_USE_NAMESPACE_STD \
+	-Wno-unused-variable -Wno-unused-parameter -Wno-missing-field-initializers --target=aarch64-linux-android31") 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -pthread -DPCCTS_USE_NAMESPACE_STD \
+	-Wno-unused-variable -Wno-unused-parameter -Wno-missing-field-initializers --target=aarch64-linux-android31")
+#        --sysroot=/home/ts/workspace/project/dx11/android_out/include/soong/ndk/sysroot")
+
+
+#把所有函数保存到一个变量里
+aux_source_directory(${CMAKE_SOURCE_DIR}/../src sourcefile)
+# 编译生成静态库，动态库或者可执行文件名
+add_executable(vc_signal ${sourcefile})
+#add_library(vc_signal SHARED  ${sourcefile}) 
+
+message(status "pzpz ${CMAKE_SYSTEM_INCLUDE_PATH}")
+
+# 编译所需头文件位置
+
+#include_directories("/home/ts/code/d11/carcam/videocat/vc_inf")
+#include_directories("/home/ts/code/d11/carcam/videocat/vc_carcam_inf")
+#include_directories("/home/ts/code/d11/carcam/videocat/vc_os_inf")
+#include_directories("/home/ts/code/d11/carcam/tc_signal/tc_signal/inc/transfer")
+#include_directories("/home/ts/code/d11/carcam/tc_signal/tc_signal/inc")
+#include_directories("/home/ts/code/d11/carcam/tc_signal/tc_signal/inc/apvp")
+#include_directories("/usr/include/c++/11")
+
+
+include_directories(${CMAKE_SOURCE_DIR}/../../../videocat/vc_os_inf/)
+include_directories(${CMAKE_SOURCE_DIR}/../../../videocat/vc_inf)
+#"${CMAKE_SOURCE_DIR}/../../../videocat/vc_inf"
+#"${CMAKE_SOURCE_DIR}/../../../videocat/vc_carcam_inf"
+#"${CMAKE_SOURCE_DIR}/../../tc_signal/inc"
+#)
+message(status "pzpz "${CMAKE_SOURCE_DIR} "/../../../videocat/vc_carcam_inf" )
+message(status "pzpz "${CMAKE_SOURCE_DIR} "/../../../videocat/vc_inf " )
+message(status "pzpz "${CMAKE_SOURCE_DIR} "/../../../videocat/vc_os_inf " )
+
+
+# 编译需要用到的的头文件所在的库的位置
+
+link_directories(${CMAKE_SOURCE_DIR}/../../thirdparty/lib64)
+message(status "pzpz "${CMAKE_SOURCE_DIR} "/../../thirdparty/lib64" )
+# LOCAL_LDFLAGS := $(LOCAL_PATH)/../../thirdparty/lib64/ #libvideocat_vendor.so \
+
+#link_libraries("/home/ts/code/d11/carcam/tc_signal/main/build/../../thirdparty/lib64/libvideocat_vendor.so")
+# 编译所需要用到的头文件的库名videocat_vendor 
+target_link_libraries(vc_signal videocat_vendor) 
+# LOCAL_LDFLAGS := $(LOCAL_PATH)/../../thirdparty/lib64/ #libvideocat_vendor.so \
+
+
+
+
