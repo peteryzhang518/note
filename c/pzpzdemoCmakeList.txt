@@ -1,6 +1,11 @@
 #CMAKE_SOURCE_DIR, 主目录地址
 #PROJECT_SOURCE_DIR , 当前目录地址, 如果cmakelist里未写子目录就是子makefile，那么当前目录地址就是著目录地址
 # PROJECT_BINARY_DIR：当前工程的编译输出目录
+
+CMAKE_LIBRARY_OUTPUT_DIRECTORY 编译生成库的地址
+install  复制编译库的地址
+
+
 project(tc_sign)
 cmake_minimum_required(VERSION 3.1)
 set(PROJECT_PATH ${PROJECT_PATH} "/home/ts/code/d11/")

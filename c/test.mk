@@ -15,3 +15,6 @@ test.o:test.c
 依赖：依赖的依赖
     gcc -c test.c -o test.o
 生成依赖的命令
+
+
+https://blog.csdn.net/weixin_51609435/article/details/125893962
