@@ -54,3 +54,12 @@ https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks#Combining_the_use_of_U
 
 编辑配置文件手动添加引导的分区入口。
 
+
+# fzf
+如果发现xception not caught: Failed to run "/home/p/.fzf/bin/fzf --version" 这个错误
+1. 检查shell,vim使用shell
+2. 检查fzf install脚本的执行
+3. 最有可能是fzf的配置文件出错，删掉fzf对于窗口登配置项目的配置
+
+# solarized
+如果发现一直颜色异常，可能是因为solarized的配置没有配置bkg和fkg等背景色和前景色，可以使用solarized去配置
