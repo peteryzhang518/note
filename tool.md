@@ -7,7 +7,14 @@
 4. 安装时如果go
    downloading出现问题，那么可以改变bashrc中goproxy的值，改变go的下载源
 5. config.yam 可以从机场文件里获取，有的机场不支持可以生成后就不好使
-6. 
+
+# v2ray
+1. v2ray 是一种内核，通过内核做出来的产品才是真正可以用的东西
+2. ubuntu
+   系统可以通过github直接使用v2rayN这个产品，然后把飞机上的v2ray连接连接上就可以直接使用
+3. 使用时点击+号，然后把链接填写上
+4. 然后更新service 不通过代理更新
+5. 最后点击下面的通过系统代理即可以（有的时候需要重启）
 
 # git
 1. git pull githuborigin main  
