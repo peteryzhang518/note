@@ -16,14 +16,6 @@
 4. 然后更新service 不通过代理更新
 5. 最后点击下面的通过系统代理即可以（有的时候需要重启）
 
-# git
-1. git pull githuborigin main  
-把githuborigin 远端仓库的main分支拉取到执行命令的分支
-2. git push githuborigin localmain:main
-把localmain分支推送到远端仓库的main分支
-3. git remote -v查看远端分支地址和在本地的名字
-4. git remote rename 可以改变远端分支在本地的名字
-
 # grub
 1. 首先来说grub是放在一个efi文件系统中的引导软件
 2. 所以首先要在硬盘开辟一块空间并且配置称efi系统
