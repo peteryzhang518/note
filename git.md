@@ -20,3 +20,11 @@ git remote rename origin new-name
 git config --global core.editor "vim"
 ```
 
+# 连接问题
+1. 当git push clone的命令忽然连接不上远程服务器的时候，需要在~/.ssh/config
+   文件中写入
+```
+Host github.com
+  Hostname ssh.github.com
+  Port 443
+```
