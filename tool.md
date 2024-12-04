@@ -62,3 +62,8 @@ https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks#Combining_the_use_of_U
 
 # solarized
 如果发现一直颜色异常，可能是因为solarized的配置没有配置bkg和fkg等背景色和前景色，可以使用solarized去配置
+
+# docker
+1. run 命令是从一个已经有的镜像中创建一个容器
+2. start是从创建好的容器中打开一个容器
+3. exec是进入某一个已经打开的容器
