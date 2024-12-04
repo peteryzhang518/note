@@ -28,3 +28,13 @@ Host github.com
   Hostname ssh.github.com
   Port 443
 ```
+
+# 回退 git commit --amend
+1. git reset HEAD@{1}
+
+# git 命令详解
+ git branch -a
+本地分支    ：* localconfig
+远端head    ：  remotes/githubconfig/HEAD -> githubconfig/main
+远端分支    ：  remotes/githubconfig/main
+
