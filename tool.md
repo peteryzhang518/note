@@ -67,3 +67,7 @@ https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks#Combining_the_use_of_U
 1. run 命令是从一个已经有的镜像中创建一个容器
 2. start是从创建好的容器中打开一个容器
 3. exec是进入某一个已经打开的容器
+
+
+# fd
+1. fd查找精准名字，全称匹配用-g
