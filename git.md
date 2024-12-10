@@ -38,3 +38,7 @@ Host github.com
 远端head    ：  remotes/githubconfig/HEAD -> githubconfig/main
 远端分支    ：  remotes/githubconfig/main
 
+
+# git 如果用的名字不是同一个电子邮件地址，是不会在github上显示的
+GIT_COMMITTER_EMAIL="peteryzhang518@gmail.com" git push
+git commit --author="peteryzhang518@gmail.com"
