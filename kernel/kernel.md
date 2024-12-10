@@ -5,12 +5,50 @@
     3. grub建立虚拟系统，挂载kernel
         包括parse_dtb,解析设备树（”setup.c” : parse_dtb）,这一过程
         这部分过程就是下面rc文件中设备树转换成凭atform设备的过程，也是device_create的
-    4. 开始startkernel的函数调用
-        kernel自检，加载硬件，driverdengdeng
-        kernel中module的加载在kernel中非常靠后，rest_init->调用kernel_thread->调用init()->do_base_setup()->driver_init()
-        do_base_setup()函数中同时也会调用do_initcalls()，这个函数完成了所有需要静态加载模块的初始化
-    5. kernel启动第一个进程，init
-    6. kernel加载rc脚本，包括sys脚本(也会初始化一些剩余的驱动进程）(包括mod probe.conf模块,ISA PnP的硬件设备,USB设备,初始化串行端口设备），然后确定运行级别，然后local脚本等等
+
+
+    在构架相关的汇编代码运行完之后，程序跳入了构架无关的内核C语言代码：init/main.c中的start_kernel
+    
+    start_kernel  
+        -> rest_init();
+            -> kernel_thread(kernel_init, NULL, CLONE_FS);
+                -> kernel_init()
+                    -> kernel_init_freeable();
+                        -> do_basic_setup();
+                            -> driver_init();
+                            -> do_initcalls();
+
+    4. 开始```startKernel()```的函数调用
+        1)它首先通过检测出来的处理器类型进行处理器内核的初始化，然后通过 bootmem_init()函数根据系统定义的 meminfo 结构进行内存结构的初始化，最后调用paging_init()开启 MMU，创建内核页表，映射所有的物理内存和 IO空间。
+        2) 创建异常向量表和初始化中断处理函数；
+        3) 初始化系统核心进程调度器和时钟中断处理机制；
+        4) 初始化串口控制台（serial-console）；
+        5) 创建和初始化系统 cache，为各种内存调用机制提供缓存，包括;动态内存分配，虚拟文件系统（VirtualFile System）及页缓存。
+        6) 初始化内存管理，检测内存大小及被内核占用的内存情况；
+        7) 初始化系统的进程间通信机制（IPC）
+
+        boot将Linux DTB二进制文件传递给Linux kernel, Linux kernel在启动过程中，会将DTB二进制文件加载进内存，并将device tree展开，通过深度遍历整棵树，填充每个节点和属性, 调用过程start_kernel() -> setup_arch() -> unflatten_device_tree()
+        setup_arch()函数是start_kernel阶段最重要的一个函数，每个体系都有自己的setup_arch()函数，是体系结构相关的，具体编译哪个体系的setup_arch()函数，由顶层Makefile中的ARCH变量决定：
+它首先通过检测出来的处理器类型进行处理器内核的初始化，然后通过 bootmem_init()函数根据系统定义的 meminfo 结构进行内存结构的初始化，最后调用paging_init()开启 MMU，创建内核页表，映射所有的物理内存和 IO空间。
+
+
+        在内核初始化函数start_kernel执行到最后，就是调用rest_init函数，这个函数的主要使命就是创建并启动内核线程init。这个函数虽然意思为剩下的初始化，但是这个“剩下”的可是内容颇多，下面详细分析如下：
+
+        rest_init();
+
+
+        kernel_init()结束 至此，内核的初始化结束，正式进入了用户空间的初始化过程至此，内核的初始化结束，正式进入了用户空间的初始化过程至此，内核的初始化结束，正式进入了用户空间的初始化过程，在kernel_init线程中调用的do_basic_setup()函数会去初始化设备驱动，完成其他驱动程序（直接编译进内核的模块）的初始化。内核中大部分的启动数据输出（都是各设备的驱动模块输出）都是这里产生的。是我们驱动工程师需要重点关注的函数。
+
+        详细解释do_basic_setup()
+            先是driver_init()
+            最后是do_init_call()
+
+
+
+        - platform_bus在注册完之后，只是注册完成，在initcall中的deviceinitcall中，会调用platform_add_devices，然后会去向总线注册device,然后就回去匹配driver,去调用dirver的probe函数
+        do_base_setup()函数中同时也会调用do_initcalls()，这个函数完成了所有需要静态加载模块的初始化,包括总线设备的初始话等，所以后面注册的设备和驱动，都是基于目前在此的总线先进行注册
+    ?5. kernel启动第一个进程，init
+    ?6. kernel加载rc脚本，包括sys脚本(也会初始化一些剩余的驱动进程）(包括mod probe.conf模块,ISA PnP的硬件设备,USB设备,初始化串行端口设备），然后确定运行级别，然后local脚本等等
 
 
 - driver和device在kernel中的源码运行顺序,基于kernel启动顺序
@@ -24,7 +62,6 @@
     6. driver/base/core.c       device_init()   
 - 这个函数过程几乎再这里完成,这个device仅仅是添加了全局变量，并且在dev文件夹下面注册相关文件
 
-- platform_bus在注册完之后，只是注册完成，在initcall中的deviceinitcall中，会调用platform_add_devices，然后会去向总线注册device,然后就回去匹配driver,去调用dirver的probe函数
 
 
 
@@ -238,17 +275,6 @@ for up_idle()            #空闲任务循环
         |  
         v  
 for(;;)                                #不应该到达这里
-
-
-
-
-
-
-
-
-
-
-
 
 
 
