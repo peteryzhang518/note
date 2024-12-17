@@ -1,3 +1,17 @@
+传统内核模式
+
+    在传统的内核模式下，确实存在先加载驱动，然后驱动去探测设备的情况。这种方式就像你描述的，驱动在初始化时（例如通过module_init函数），会尝试在对应的总线上寻找与之匹配的设备。
+    以 ISA（Industry Standard Architecture）设备为例，在早期的计算机系统中，ISA 设备驱动在加载后，会扫描 ISA 总线的 I/O 端口范围和中断请求（IRQ）资源，以确定是否存在对应的设备。如果找到合适的设备（通过检测设备特定的 I/O 端口签名或响应），就会为其分配资源，如 I/O 端口地址、中断号等，并创建对应的设备结构体（struct device）来表示这个物理设备。
+    这种方式的缺点是驱动和硬件的绑定比较紧密。驱动需要了解硬件设备的具体位置（如 I/O 端口地址和 IRQ）等细节信息，当硬件配置发生变化时，驱动可能需要重新编写或者重新配置才能正常工作。
+
+现代内核模式（设备树和 platform）
+
+    在现代内核中，设备树（Device Tree）和平台设备（Platform）机制提供了一种更灵活的方式。通常是先通过设备树来描述系统中的硬件设备。设备树是一种树形的数据结构，它以节点的形式描述了硬件设备的各种信息，包括设备类型、设备连接的总线（如 I2C、SPI 等）、设备的寄存器地址、中断号等。
+    当内核启动时，会解析设备树。对于平台设备（platform_device），会根据设备树中的信息创建相应的设备对象。这些设备对象代表了物理设备，它们被添加到内核的设备管理体系中。
+    然后，通过 initcall 机制来加载和初始化驱动。initcall 是一种内核启动阶段的初始化机制，不同优先级的 initcall 函数会在不同的阶段被调用。驱动的初始化函数（通常标记为__init）会在适当的 initcall 阶段被调用。在这个函数中，驱动会向内核注册自己，并且会尝试与已经创建的设备进行匹配（例如通过设备的 ID、设备类型等信息）。如果匹配成功，驱动就可以获取设备相关的资源（如寄存器地址、中断号等）并完成设备的初始化，如配置寄存器、注册中断处理函数等操作。
+    例如，对于一个连接在 ARM 系统的 I2C 总线上的传感器设备，设备树会描述该传感器的 I2C 地址、中断号等信息。内核启动时解析设备树创建该传感器设备对象，之后 I2C 传感器驱动通过 initcall 机制初始化，在初始化过程中与这个已经创建的设备对象匹配，完成对传感器设备的初始化，包括设置 I2C 通信速率、注册读取传感器数据的函数等。
+
+
 # 11.7
 - kernel 启动顺序
     1. bios
@@ -44,11 +58,23 @@
             最后是do_init_call()
 
 
+在这do_basic_setup函数中首先会初始化sys class等等相关内容，然后一次调用driver_init->platform_bus_init来初始化platform这条bus，最后通过do_initcalls 去调用各种不同级别的初始化函数。也就是说bus的注册时间肯定是最早的，那么device和driver的注册时间谁先谁后呢？这个需要具体情况分析，但是一般是device要早于driver先注册到bus上。
+因为内核中对启动级别的定义有，arch_initcall(customize_machine)(这里的arch_initcall指的是do_init_call中的第三级别init函数）具体实现如下：
+static int __init customize_machine(void)
+{
+    /* customizes platform devices, or adds new ones */
+    if (machine_desc->init_machine)
+        machine_desc->init_machine();
+    return 0;
+}
+这里的machine_desc->init_machine()一般就是每个machine对应的init_machine，一般通过DT_MACHINE_START宏来定义。
+在init_machine中会调用of_platform_populate方法去解析allnodes，解析好之后就顺带注册到platform总线上了。
+而一般的driver是动过module_init来启动的，module_init的启动级别要地狱arch_initcall。所以do_initcalls是先调用了arch_initcall这里会一步步将device注册到platform 总线上，然后再通过module_init将driver注册到platform总线上。
 
-        - platform_bus在注册完之后，只是注册完成，在initcall中的deviceinitcall中，会调用platform_add_devices，然后会去向总线注册device,然后就回去匹配driver,去调用dirver的probe函数
+        ????- platform_bus在注册完之后，只是注册完成，在initcall中的deviceinitcall中，会调用platform_add_devices，然后会去向总线注册device,然后就回去匹配driver,去调用dirver的probe函数
         do_base_setup()函数中同时也会调用do_initcalls()，这个函数完成了所有需要静态加载模块的初始化,包括总线设备的初始话等，所以后面注册的设备和驱动，都是基于目前在此的总线先进行注册
-    ?5. kernel启动第一个进程，init
-    ?6. kernel加载rc脚本，包括sys脚本(也会初始化一些剩余的驱动进程）(包括mod probe.conf模块,ISA PnP的硬件设备,USB设备,初始化串行端口设备），然后确定运行级别，然后local脚本等等
+    ?kernel启动第一个进程，init
+    ? kernel加载rc脚本，包括sys脚本(也会初始化一些剩余的驱动进程）(包括mod probe.conf模块,ISA PnP的硬件设备,USB设备,初始化串行端口设备），然后确定运行级别，然后local脚本等等
 
 
 - driver和device在kernel中的源码运行顺序,基于kernel启动顺序

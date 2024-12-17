@@ -71,3 +71,9 @@ https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks#Combining_the_use_of_U
 
 # fd
 1. fd查找精准名字，全称匹配用-g
+
+
+# 环境代理命令
+ sudo apt install *** -o Acquire::http::Proxy="http://192.168.6.202:8080"
+ curl -k -O ***
+
