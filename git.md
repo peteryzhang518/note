@@ -45,5 +45,8 @@ Host github.com
 2. 提交的时候用相同的地址去提交
 GIT_COMMITTER_EMAIL="peteryzhang518@gmail.com" git push
 git commit --author="peteryzhang518@gmail.com"
+git commit --amend --author="peterZ <peteryzhang518@gmail.com>"
+git commit --amend --author="peteryzhang518 <peteryzhang518@gmail.com>"
+
 
 用的邮箱地址没有注册账号的话，提交会被标记为未有用户地址,但不影响提交
