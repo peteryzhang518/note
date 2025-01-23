@@ -1,0 +1,783 @@
+pzlog.txt://pzpz first process
+pzlog.txt://pzpz
+pzlog.txt://pzpz prepare Finalize Pipeline
+pzlog.txt1:01-02 13:06:24:922260777  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4987 CreatePipelineDescriptor() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x7463657300000000
+pzlog.txt1:01-02 13:06:24:922273121  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4987 CreatePipelineDescriptor() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x7463657300000000
+pzlog.txt1:01-02 13:06:24:922284683  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4987 CreatePipelineDescriptor() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x7463657300000000
+pzlog.txt1:01-02 13:06:24:922639319  18529  18535 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5359 CreatePipelineDescriptor() pzpz createpipdes 1 MultiCameraSATWithBoe0 numInputs: 0
+pzlog.txt1:01-02 13:06:24:922747964  18529  18535 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5395 CreatePipelineDescriptor() pzpz createpipdes 2 MultiCameraSATWithBoe0 numInputs: 0
+pzlog.txt1:01-02 13:06:24:922761350  18529  18535 E CamX: [ERROR][CORE   ] camxpipeline.cpp:173 Create() pzpz create Pipelin
+pzlog.txt1:01-02 13:06:24:922782548  18529  18535 E CamX: [ERROR][CORE   ] camxpipeline.cpp:120 Pipeline() pzpz create Pipelin struct
+pzlog.txt1:01-02 13:06:24:926458225  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 255 instanceid 1
+pzlog.txt1:01-02 13:06:24:926499839  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:926509944  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:926521298  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:926531194  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:926653798  18529  18535 E CamX: [ERROR][CORE   ] camxchinodewrapper.cpp:2705 ProcessingNodeInitialize() pzpz id 255  instanceid 1
+pzlog.txt1:01-02 13:06:24:928854371  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 255 instanceid 11
+pzlog.txt1:01-02 13:06:24:928900985  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:928917496  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:928929371  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:928939892  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:929040412  18529  18535 E CamX: [ERROR][CORE   ] camxchinodewrapper.cpp:2705 ProcessingNodeInitialize() pzpz id 255  instanceid 11
+pzlog.txt1:01-02 13:06:24:931175829  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 255 instanceid 16
+pzlog.txt1:01-02 13:06:24:931236975  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:931250464  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:931352808  18529  18535 E CamX: [ERROR][CORE   ] camxchinodewrapper.cpp:2705 ProcessingNodeInitialize() pzpz id 255  instanceid 16
+pzlog.txt1:01-02 13:06:24:953192548  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 255 instanceid 21
+pzlog.txt1:01-02 13:06:24:953228329  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:953239110  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:953250517  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:953260412  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:953397652  18529  18535 E CamX: [ERROR][CORE   ] camxchinodewrapper.cpp:2705 ProcessingNodeInitialize() pzpz id 255  instanceid 21
+pzlog.txt1:01-02 13:06:24:955219319  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 255 instanceid 26
+pzlog.txt1:01-02 13:06:24:955255360  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:955266194  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:955365464  18529  18535 E CamX: [ERROR][CORE   ] camxchinodewrapper.cpp:2705 ProcessingNodeInitialize() pzpz id 255  instanceid 26
+pzlog.txt1:01-02 13:06:24:960979787  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 255 instanceid 4
+pzlog.txt1:01-02 13:06:24:961285204  18529  18535 E CamX: [ERROR][CORE   ] camxchinodewrapper.cpp:2705 ProcessingNodeInitialize() pzpz id 255  instanceid 4
+pzlog.txt1:01-02 13:06:24:968786402  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 255 instanceid 50
+pzlog.txt1:01-02 13:06:24:968833642  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:968849944  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:969128433  18529  18535 E CamX: [ERROR][CORE   ] camxchinodewrapper.cpp:2705 ProcessingNodeInitialize() pzpz id 255  instanceid 50
+pzlog.txt1:01-02 13:06:24:969145725  18529  18535 E CHIUSECASE: [ERROR  ] camxchinodememcpy.cpp:497 Initialize() pzpz memcpy node initialize
+pzlog.txt1:01-02 13:06:24:969580569  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 255 instanceid 51
+pzlog.txt1:01-02 13:06:24:969621662  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:969632912  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:969874527  18529  18535 E CamX: [ERROR][CORE   ] camxchinodewrapper.cpp:2705 ProcessingNodeInitialize() pzpz id 255  instanceid 51
+pzlog.txt1:01-02 13:06:24:969887548  18529  18535 E CHIUSECASE: [ERROR  ] camxchinodememcpy.cpp:497 Initialize() pzpz memcpy node initialize
+pzlog.txt1:01-02 13:06:24:970300464  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 255 instanceid 52
+pzlog.txt1:01-02 13:06:24:970332600  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:970343225  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:970587548  18529  18535 E CamX: [ERROR][CORE   ] camxchinodewrapper.cpp:2705 ProcessingNodeInitialize() pzpz id 255  instanceid 52
+pzlog.txt1:01-02 13:06:24:970599423  18529  18535 E CHIUSECASE: [ERROR  ] camxchinodememcpy.cpp:497 Initialize() pzpz memcpy node initialize
+pzlog.txt1:01-02 13:06:24:971063017  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 255 instanceid 6
+pzlog.txt1:01-02 13:06:24:971098798  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:971109631  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:971198433  18529  18535 E CamX: [ERROR][CORE   ] camxchinodewrapper.cpp:2705 ProcessingNodeInitialize() pzpz id 255  instanceid 6
+pzlog.txt1:01-02 13:06:24:977227339  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 65538 instanceid 13
+pzlog.txt1:01-02 13:06:24:977257183  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:977267496  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:977277964  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:977287964  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:977298173  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:977308277  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:978401662  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 65538 instanceid 23
+pzlog.txt1:01-02 13:06:24:978429839  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:978440152  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:978450152  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:978460048  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:978469839  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:978479683  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:979550412  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 65538 instanceid 3
+pzlog.txt1:01-02 13:06:24:979607912  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:979619058  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:979629579  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:979639892  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:979649787  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:979659631  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981170881  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 65543 instanceid 10
+pzlog.txt1:01-02 13:06:24:981229527  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981240308  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981250881  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981261037  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981272964  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981284319  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981294162  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981304267  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981314579  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981324475  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981335829  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981345621  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981355412  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981365308  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981375204  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981385204  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981405048  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981415256  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981425308  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981435412  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981445412  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981455464  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981465412  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981475308  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981485777  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981495569  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981505464  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981515464  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981525621  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981535569  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981545412  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981555256  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981565308  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981575152  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981584996  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981594944  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981604579  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981614267  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981624319  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981634162  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981644319  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981655985  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981666142  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981675933  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981685777  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981695829  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981706767  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981716975  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981731350  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981741402  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981751558  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981761454  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981771662  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981781662  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981791819  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981802131  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981812548  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981822496  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981832287  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981842339  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981852079  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981861923  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981871819  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:981881662  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982542860  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 65543 instanceid 20
+pzlog.txt1:01-02 13:06:24:982582860  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982592964  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982603121  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982613173  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982623277  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982633225  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982644944  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982655204  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982669944  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982680100  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982689944  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982699787  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982709683  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982719839  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982729996  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982744162  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982754527  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982764267  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982774006  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982783850  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982793694  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982803746  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982813850  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982823798  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982833954  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982844006  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982854839  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982864892  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982875048  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982886402  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982897600  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982907392  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982917392  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982927496  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982937235  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982947287  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982957183  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982967131  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982977235  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982986975  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:982997287  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983069423  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983081142  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983092131  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983102756  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983112808  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983122808  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983133850  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983144371  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983154475  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983164267  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983173954  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983183746  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983193485  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983203277  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983213069  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983223225  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983234579  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983244527  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983254319  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983264162  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983274110  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983285152  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983295152  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983880360  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 65543 instanceid 30
+pzlog.txt1:01-02 13:06:24:983928798  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983939162  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983949527  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983959475  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983969527  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983979579  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983989683  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:983999996  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984010569  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984020569  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984030517  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984040569  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984050777  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984060829  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984072339  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984082339  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984097652  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984107912  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984118069  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984128225  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984138329  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984148485  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984158381  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984168433  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984182496  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984192548  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984203954  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984215152  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984226610  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984236610  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984246506  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984256402  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984268225  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984278485  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984289735  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984300048  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984309944  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984320048  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984329683  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984339683  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984353537  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984363694  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984373537  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984383485  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984393329  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984403121  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984413069  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984423069  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984433017  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984443121  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984453121  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984463017  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984472860  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984482704  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984492912  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984502704  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984512808  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984522860  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984532652  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984543954  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984556454  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984566610  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984576298  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:984586246  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:24:987724267  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.boeproc4_cam1 type 255 instanceid 4   inputnum3
+pzlog.txt1:01-02 13:06:24:987734319  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 4  node port id 0
+pzlog.txt1:01-02 13:06:24:987744371  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 4  node port id 1
+pzlog.txt1:01-02 13:06:24:987754579  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 4  node port id 2
+pzlog.txt1:01-02 13:06:24:987970829  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_IPE3_cam1 type 65538 instanceid 3   inputnum6
+pzlog.txt1:01-02 13:06:24:987982339  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 2
+pzlog.txt1:01-02 13:06:24:987992496  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 0
+pzlog.txt1:01-02 13:06:24:988003746  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 11
+pzlog.txt1:01-02 13:06:24:988013589  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 1
+pzlog.txt1:01-02 13:06:24:988023433  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 40
+pzlog.txt1:01-02 13:06:24:988033329  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 41
+pzlog.txt1:01-02 13:06:24:988153694  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_EVA10_cam1 type 65543 instanceid 10   inputnum8
+pzlog.txt1:01-02 13:06:24:988163642  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 3
+pzlog.txt1:01-02 13:06:24:988173589  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 5
+pzlog.txt1:01-02 13:06:24:988183433  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 33
+pzlog.txt1:01-02 13:06:24:988193225  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 9
+pzlog.txt1:01-02 13:06:24:988203017  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 6
+pzlog.txt1:01-02 13:06:24:988213121  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 34
+pzlog.txt1:01-02 13:06:24:988222912  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 35
+pzlog.txt1:01-02 13:06:24:988232756  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 47
+pzlog.txt1:01-02 13:06:24:988368277  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gme1_cam1 type 255 instanceid 1   inputnum2
+pzlog.txt1:01-02 13:06:24:988378329  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 1  node port id 0
+pzlog.txt1:01-02 13:06:24:988388329  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 1  node port id 1
+pzlog.txt1:01-02 13:06:24:988767027  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gpu6_cam1 type 255 instanceid 6   inputnum1
+pzlog.txt1:01-02 13:06:24:988777027  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 6  node port id 0
+pzlog.txt1:01-02 13:06:24:988867756  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.memcpy50_cam1 type 255 instanceid 50   inputnum1
+pzlog.txt1:01-02 13:06:24:988877704  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 50  node port id 0
+pzlog.txt1:01-02 13:06:24:989083642  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_IPE13_cam1 type 65538 instanceid 13   inputnum6
+pzlog.txt1:01-02 13:06:24:989093694  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 2
+pzlog.txt1:01-02 13:06:24:989103537  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 0
+pzlog.txt1:01-02 13:06:24:989113746  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 11
+pzlog.txt1:01-02 13:06:24:989123589  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 1
+pzlog.txt1:01-02 13:06:24:989133433  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 40
+pzlog.txt1:01-02 13:06:24:989144527  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 41
+pzlog.txt1:01-02 13:06:24:989259996  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_EVA20_cam1 type 65543 instanceid 20   inputnum8
+pzlog.txt1:01-02 13:06:24:989273537  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 3
+pzlog.txt1:01-02 13:06:24:989283537  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 5
+pzlog.txt1:01-02 13:06:24:989293381  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 33
+pzlog.txt1:01-02 13:06:24:989303173  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 9
+pzlog.txt1:01-02 13:06:24:989312964  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 6
+pzlog.txt1:01-02 13:06:24:989323017  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 34
+pzlog.txt1:01-02 13:06:24:989333173  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 35
+pzlog.txt1:01-02 13:06:24:989343121  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 47
+pzlog.txt1:01-02 13:06:24:989473798  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gme11_cam1 type 255 instanceid 11   inputnum2
+pzlog.txt1:01-02 13:06:24:989483850  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 11  node port id 0
+pzlog.txt1:01-02 13:06:24:989493850  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 11  node port id 1
+pzlog.txt1:01-02 13:06:24:989865256  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gpu16_cam1 type 255 instanceid 16   inputnum1
+pzlog.txt1:01-02 13:06:24:989875152  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 16  node port id 0
+pzlog.txt1:01-02 13:06:24:989962027  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.memcpy51_cam1 type 255 instanceid 51   inputnum1
+pzlog.txt1:01-02 13:06:24:989975569  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 51  node port id 0
+pzlog.txt1:01-02 13:06:24:990173589  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_IPE23_cam1 type 65538 instanceid 23   inputnum6
+pzlog.txt1:01-02 13:06:24:990183381  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 2
+pzlog.txt1:01-02 13:06:24:990193277  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 0
+pzlog.txt1:01-02 13:06:24:990203173  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 11
+pzlog.txt1:01-02 13:06:24:990212756  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 1
+pzlog.txt1:01-02 13:06:24:990222496  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 40
+pzlog.txt1:01-02 13:06:24:990232131  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 41
+pzlog.txt1:01-02 13:06:24:990348433  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_EVA30_cam1 type 65543 instanceid 30   inputnum8
+pzlog.txt1:01-02 13:06:24:990359162  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 3
+pzlog.txt1:01-02 13:06:24:990368798  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 5
+pzlog.txt1:01-02 13:06:24:990378433  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 33
+pzlog.txt1:01-02 13:06:24:990388121  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 9
+pzlog.txt1:01-02 13:06:24:990397964  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 6
+pzlog.txt1:01-02 13:06:24:990407652  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 34
+pzlog.txt1:01-02 13:06:24:990417704  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 35
+pzlog.txt1:01-02 13:06:24:990427235  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 47
+pzlog.txt1:01-02 13:06:24:990554058  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gme21_cam1 type 255 instanceid 21   inputnum2
+pzlog.txt1:01-02 13:06:24:990563798  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 21  node port id 0
+pzlog.txt1:01-02 13:06:24:990573485  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 21  node port id 1
+pzlog.txt1:01-02 13:06:24:990954162  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gpu26_cam1 type 255 instanceid 26   inputnum1
+pzlog.txt1:01-02 13:06:24:990964319  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 26  node port id 0
+pzlog.txt1:01-02 13:06:24:991104579  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.memcpy52_cam1 type 255 instanceid 52   inputnum1
+pzlog.txt1:01-02 13:06:24:991114735  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 255  nodeinstanceId 52  node port id 0
+pzlog.txt1:01-02 13:06:24:991126298  18529  18535 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraSATWithBoe0_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:24:991136871  18529  18535 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraSATWithBoe0_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:24:991147079  18529  18535 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraSATWithBoe0_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:24:991159058  18529  18535 E CamX: [ERROR][CORE   ] camxpipeline.cpp:2853 CreateNodes() pzpz node pipelinename MultiCameraSATWithBoe0, typeid 255, instanceid com.qti.node.memcpy50, is sourcebuferr 1
+pzlog.txt1:01-02 13:06:24:991171298  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11597 FillPipelineInputOptions() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.memcpy50_cam1 type 255 instanceid 50   inputnum1
+pzlog.txt1:01-02 13:06:24:991182548  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11605 FillPipelineInputOptions() pzpzpz node id 255  nodeinstanceId 50  node port id 0
+pzlog.txt1:01-02 13:06:24:991193225  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11676 FillPipelineInputOptions() pzpz full input port node id 255  nodeinstanceId 50  node port id 0
+pzlog.txt1:01-02 13:06:24:991218485  18529  18535 E CamX: [ERROR][CORE   ] camxpipeline.cpp:2853 CreateNodes() pzpz node pipelinename MultiCameraSATWithBoe0, typeid 255, instanceid com.qti.node.memcpy51, is sourcebuferr 1
+pzlog.txt1:01-02 13:06:24:991228589  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11597 FillPipelineInputOptions() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.memcpy51_cam1 type 255 instanceid 51   inputnum1
+pzlog.txt1:01-02 13:06:24:991238485  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11605 FillPipelineInputOptions() pzpzpz node id 255  nodeinstanceId 51  node port id 0
+pzlog.txt1:01-02 13:06:24:991248537  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11676 FillPipelineInputOptions() pzpz full input port node id 255  nodeinstanceId 51  node port id 0
+pzlog.txt1:01-02 13:06:24:991268746  18529  18535 E CamX: [ERROR][CORE   ] camxpipeline.cpp:2853 CreateNodes() pzpz node pipelinename MultiCameraSATWithBoe0, typeid 255, instanceid com.qti.node.memcpy52, is sourcebuferr 1
+pzlog.txt1:01-02 13:06:24:991278694  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11597 FillPipelineInputOptions() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.memcpy52_cam1 type 255 instanceid 52   inputnum1
+pzlog.txt1:01-02 13:06:24:991288537  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11605 FillPipelineInputOptions() pzpzpz node id 255  nodeinstanceId 52  node port id 0
+pzlog.txt1:01-02 13:06:24:991298485  18529  18535 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11676 FillPipelineInputOptions() pzpz full input port node id 255  nodeinstanceId 52  node port id 0
+pzlog.txt1:01-02 13:06:24:991320464  18529  18535 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2885 CreateNodes() : pzpz MultiCameraSATWithBoe0_0 after fillpipelineInputOptions -- input PortId: 0, NodeId: 255, InstanceId: 50, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:24:991330725  18529  18535 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2885 CreateNodes() : pzpz MultiCameraSATWithBoe0_0 after fillpipelineInputOptions -- input PortId: 0, NodeId: 255, InstanceId: 51, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:24:991341037  18529  18535 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2885 CreateNodes() : pzpz MultiCameraSATWithBoe0_0 after fillpipelineInputOptions -- input PortId: 0, NodeId: 255, InstanceId: 52, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:24:992499162  18529  18535 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5446 CreatePipelineDescriptor() pzpz createpipdes 3 MultiCameraSATWithBoe0 numInputs: 0
+pzlog.txt1:01-02 13:06:24:992510621  18529  18535 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5491 CreatePipelineDescriptor() pzpz createpipdes 4 MultiCameraSATWithBoe0 numInputs: 3
+pzlog.txt1:01-02 13:06:24:992521975  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:5503 CreatePipelineDescriptor() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 50, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:24:992532964  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:5503 CreatePipelineDescriptor() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 51, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:24:992543225  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:5503 CreatePipelineDescriptor() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 52, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:002230673  18529  18924 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5359 CreatePipelineDescriptor() pzpz createpipdes 1 MultiCameraRealtimeWithFusion2 numInputs: 0
+pzlog.txt1:01-02 13:06:25:002280985  18529  18924 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5395 CreatePipelineDescriptor() pzpz createpipdes 2 MultiCameraRealtimeWithFusion2 numInputs: 0
+pzlog.txt1:01-02 13:06:25:002293694  18529  18924 E CamX: [ERROR][CORE   ] camxpipeline.cpp:173 Create() pzpz create Pipelin
+pzlog.txt1:01-02 13:06:25:002370308  18529  18924 E CamX: [ERROR][CORE   ] camxpipeline.cpp:120 Pipeline() pzpz create Pipelin struct
+pzlog.txt1:01-02 13:06:25:004826194  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 0 instanceid 0
+pzlog.txt1:01-02 13:06:25:005438746  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 1 instanceid 0
+pzlog.txt1:01-02 13:06:25:005771037  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 12 instanceid 0
+pzlog.txt1:01-02 13:06:25:010461558  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 65536 instanceid 0
+pzlog.txt1:01-02 13:06:25:010559892  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010570621  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010583069  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010593225  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010603642  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010613485  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010628798  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010638694  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010689527  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010699944  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010714839  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010725256  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010739371  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010749475  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010759892  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:010769944  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:012380569  18529  18923 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5359 CreatePipelineDescriptor() pzpz createpipdes 1 MultiCameraRealtimeWithFusion1 numInputs: 0
+pzlog.txt1:01-02 13:06:25:012440881  18529  18923 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5395 CreatePipelineDescriptor() pzpz createpipdes 2 MultiCameraRealtimeWithFusion1 numInputs: 0
+pzlog.txt1:01-02 13:06:25:012452548  18529  18923 E CamX: [ERROR][CORE   ] camxpipeline.cpp:173 Create() pzpz create Pipelin
+pzlog.txt1:01-02 13:06:25:012552339  18529  18923 E CamX: [ERROR][CORE   ] camxpipeline.cpp:120 Pipeline() pzpz create Pipelin struct
+pzlog.txt1:01-02 13:06:25:015070256  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 0 instanceid 0
+pzlog.txt1:01-02 13:06:25:015739683  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 1 instanceid 0
+pzlog.txt1:01-02 13:06:25:016060777  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 12 instanceid 0
+pzlog.txt1:01-02 13:06:25:018835829  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 9 instanceid 0
+pzlog.txt1:01-02 13:06:25:019375621  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 9 instanceid 1
+pzlog.txt1:01-02 13:06:25:020312600  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 3
+pzlog.txt1:01-02 13:06:25:020326975  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 62
+pzlog.txt1:01-02 13:06:25:020341246  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 37
+pzlog.txt1:01-02 13:06:25:020355621  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 76
+pzlog.txt1:01-02 13:06:25:020369944  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 83
+pzlog.txt1:01-02 13:06:25:020384110  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 13
+pzlog.txt1:01-02 13:06:25:020399319  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion2_Stats0_cam2 type 1 instanceid 0   inputnum6
+pzlog.txt1:01-02 13:06:25:020413954  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:020428537  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:020442756  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 37
+pzlog.txt1:01-02 13:06:25:020457444  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 76
+pzlog.txt1:01-02 13:06:25:020471350  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 83
+pzlog.txt1:01-02 13:06:25:020485412  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 13
+pzlog.txt1:01-02 13:06:25:020503642  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::12 type 0 instanceid 1
+pzlog.txt1:01-02 13:06:25:020518329  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::12 type 0 instanceid 62
+pzlog.txt1:01-02 13:06:25:020533329  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion2_AWB0_cam2 type 12 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:020550308  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:020569787  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:020571819  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 65536 instanceid 0
+pzlog.txt1:01-02 13:06:25:020592183  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 3
+pzlog.txt1:01-02 13:06:25:020606923  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 9
+pzlog.txt1:01-02 13:06:25:020621194  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 1
+pzlog.txt1:01-02 13:06:25:020637652  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 36
+pzlog.txt1:01-02 13:06:25:020653069  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 35
+pzlog.txt1:01-02 13:06:25:020658121  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020673277  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 61
+pzlog.txt1:01-02 13:06:25:020675256  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020692392  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020695621  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 65
+pzlog.txt1:01-02 13:06:25:020702704  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020712652  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion2_StatsParse0_cam2 type 9 instanceid 0   inputnum7
+pzlog.txt1:01-02 13:06:25:020716610  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020732860  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:020733798  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020753121  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020754892  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 9
+pzlog.txt1:01-02 13:06:25:020763225  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020770308  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:020775152  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020789683  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 36
+pzlog.txt1:01-02 13:06:25:020791714  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020808381  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020811558  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 35
+pzlog.txt1:01-02 13:06:25:020818642  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020826819  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 61
+pzlog.txt1:01-02 13:06:25:020831767  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020852964  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 65
+pzlog.txt1:01-02 13:06:25:020854944  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020874214  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020882131  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 1 instanceid 20
+pzlog.txt1:01-02 13:06:25:020899423  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:020902548  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 1 instanceid 29
+pzlog.txt1:01-02 13:06:25:020917183  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion2_StatsParse1_cam2 type 9 instanceid 1   inputnum2
+pzlog.txt1:01-02 13:06:25:020931350  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 20
+pzlog.txt1:01-02 13:06:25:020946089  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 29
+pzlog.txt1:01-02 13:06:25:021638381  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion2_IFE0_cam2 type 65536 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:021653589  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65536  nodeinstanceId 0  node port id 2
+pzlog.txt1:01-02 13:06:25:021668746  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:021698850  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 9 instanceid 0
+pzlog.txt1:01-02 13:06:25:021740412  18529  18924 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraRealtimeWithFusion2_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:021755517  18529  18924 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraRealtimeWithFusion2_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:021777027  18529  18924 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraRealtimeWithFusion2_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:021792027  18529  18924 E CamX: [ERROR][CORE   ] camxpipeline.cpp:2853 CreateNodes() pzpz node pipelinename MultiCameraRealtimeWithFusion2, typeid 0, instanceid Sensor0, is sourcebuferr 0
+pzlog.txt1:01-02 13:06:25:021808017  18529  18924 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11597 FillPipelineInputOptions() pzpzNode::MultiCameraRealtimeWithFusion2_Sensor0_cam2 type 0 instanceid 0   inputnum0
+pzlog.txt1:01-02 13:06:25:021829944  18529  18924 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2885 CreateNodes() : pzpz MultiCameraRealtimeWithFusion2_0 after fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:021979110  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 9 instanceid 1
+pzlog.txt1:01-02 13:06:25:022682964  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 3
+pzlog.txt1:01-02 13:06:25:022696767  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 62
+pzlog.txt1:01-02 13:06:25:022712131  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 37
+pzlog.txt1:01-02 13:06:25:022722704  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 76
+pzlog.txt1:01-02 13:06:25:022740517  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 83
+pzlog.txt1:01-02 13:06:25:022761819  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 13
+pzlog.txt1:01-02 13:06:25:022780673  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion1_Stats0_cam0 type 1 instanceid 0   inputnum6
+pzlog.txt1:01-02 13:06:25:022793069  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:022808694  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:022821089  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 37
+pzlog.txt1:01-02 13:06:25:022837704  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 76
+pzlog.txt1:01-02 13:06:25:022860621  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 83
+pzlog.txt1:01-02 13:06:25:022880569  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 13
+pzlog.txt1:01-02 13:06:25:022891923  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::12 type 0 instanceid 1
+pzlog.txt1:01-02 13:06:25:022904787  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::12 type 0 instanceid 62
+pzlog.txt1:01-02 13:06:25:022923798  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion1_AWB0_cam0 type 12 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:022934267  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:022953485  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:022967652  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 3
+pzlog.txt1:01-02 13:06:25:022977912  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 9
+pzlog.txt1:01-02 13:06:25:022994527  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 1
+pzlog.txt1:01-02 13:06:25:023043069  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 36
+pzlog.txt1:01-02 13:06:25:023053798  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 35
+pzlog.txt1:01-02 13:06:25:023067339  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 61
+pzlog.txt1:01-02 13:06:25:023078589  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 65
+pzlog.txt1:01-02 13:06:25:023097027  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion1_StatsParse0_cam0 type 9 instanceid 0   inputnum7
+pzlog.txt1:01-02 13:06:25:023112027  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:023130517  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 9
+pzlog.txt1:01-02 13:06:25:023143433  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:023161298  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 36
+pzlog.txt1:01-02 13:06:25:023182652  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 35
+pzlog.txt1:01-02 13:06:25:023195100  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 61
+pzlog.txt1:01-02 13:06:25:023205725  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 65
+pzlog.txt1:01-02 13:06:25:023216194  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 1 instanceid 20
+pzlog.txt1:01-02 13:06:25:023226350  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 1 instanceid 29
+pzlog.txt1:01-02 13:06:25:023241923  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion1_StatsParse1_cam0 type 9 instanceid 1   inputnum2
+pzlog.txt1:01-02 13:06:25:023261662  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 20
+pzlog.txt1:01-02 13:06:25:023273485  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 29
+pzlog.txt1:01-02 13:06:25:023782704  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion1_IFE0_cam0 type 65536 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:023794058  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65536  nodeinstanceId 0  node port id 2
+pzlog.txt1:01-02 13:06:25:023805412  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:023846923  18529  18923 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraRealtimeWithFusion1_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:023857183  18529  18923 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraRealtimeWithFusion1_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:023874475  18529  18923 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraRealtimeWithFusion1_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:023885204  18529  18923 E CamX: [ERROR][CORE   ] camxpipeline.cpp:2853 CreateNodes() pzpz node pipelinename MultiCameraRealtimeWithFusion1, typeid 0, instanceid Sensor0, is sourcebuferr 0
+pzlog.txt1:01-02 13:06:25:023902287  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11597 FillPipelineInputOptions() pzpzNode::MultiCameraRealtimeWithFusion1_Sensor0_cam0 type 0 instanceid 0   inputnum0
+pzlog.txt1:01-02 13:06:25:023912860  18529  18923 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2885 CreateNodes() : pzpz MultiCameraRealtimeWithFusion1_0 after fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:032052548  18529  18923 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5446 CreatePipelineDescriptor() pzpz createpipdes 3 MultiCameraRealtimeWithFusion1 numInputs: 0
+pzlog.txt1:01-02 13:06:25:032079892  18529  18923 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5491 CreatePipelineDescriptor() pzpz createpipdes 4 MultiCameraRealtimeWithFusion1 numInputs: 1
+pzlog.txt1:01-02 13:06:25:032094475  18529  18923 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:5503 CreatePipelineDescriptor() MultiCameraRealtimeWithFusion1: pzpz pipeline descriptor -- input PortId: 0, NodeId: 0, InstanceId: 0, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:032982339  18529  18924 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5446 CreatePipelineDescriptor() pzpz createpipdes 3 MultiCameraRealtimeWithFusion2 numInputs: 0
+pzlog.txt1:01-02 13:06:25:033000621  18529  18924 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5491 CreatePipelineDescriptor() pzpz createpipdes 4 MultiCameraRealtimeWithFusion2 numInputs: 1
+pzlog.txt1:01-02 13:06:25:033024527  18529  18924 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:5503 CreatePipelineDescriptor() MultiCameraRealtimeWithFusion2: pzpz pipeline descriptor -- input PortId: 0, NodeId: 0, InstanceId: 0, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:033794214  18529  18923 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5359 CreatePipelineDescriptor() pzpz createpipdes 1 MultiCameraRealtimeWithFusion0 numInputs: 0
+pzlog.txt1:01-02 13:06:25:033852235  18529  18923 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5395 CreatePipelineDescriptor() pzpz createpipdes 2 MultiCameraRealtimeWithFusion0 numInputs: 0
+pzlog.txt1:01-02 13:06:25:033862964  18529  18923 E CamX: [ERROR][CORE   ] camxpipeline.cpp:173 Create() pzpz create Pipelin
+pzlog.txt1:01-02 13:06:25:033950777  18529  18923 E CamX: [ERROR][CORE   ] camxpipeline.cpp:120 Pipeline() pzpz create Pipelin struct
+pzlog.txt1:01-02 13:06:25:036339631  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 0 instanceid 0
+pzlog.txt1:01-02 13:06:25:036873798  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 1 instanceid 0
+pzlog.txt1:01-02 13:06:25:037161037  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 12 instanceid 0
+pzlog.txt1:01-02 13:06:25:041798642  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 65536 instanceid 0
+pzlog.txt1:01-02 13:06:25:041874475  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041884423  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041895621  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041905777  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041916246  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041926350  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041936558  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041946714  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041956975  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041967183  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041977392  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041987548  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:041998433  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:042008225  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:042026402  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:042036610  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:722 InitializeNonSinkPortBufferProperties() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:042744110  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 9 instanceid 0
+pzlog.txt1:01-02 13:06:25:042989110  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:1239 Initialize() pzpz initializeNode:: type 9 instanceid 1
+pzlog.txt1:01-02 13:06:25:043639631  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 3
+pzlog.txt1:01-02 13:06:25:043650412  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 62
+pzlog.txt1:01-02 13:06:25:043660360  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 37
+pzlog.txt1:01-02 13:06:25:043670621  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 76
+pzlog.txt1:01-02 13:06:25:043680985  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 83
+pzlog.txt1:01-02 13:06:25:043691246  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::1 type 0 instanceid 13
+pzlog.txt1:01-02 13:06:25:043702912  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion0_Stats0_cam1 type 1 instanceid 0   inputnum6
+pzlog.txt1:01-02 13:06:25:043714267  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:043724944  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:043735621  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 37
+pzlog.txt1:01-02 13:06:25:043746506  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 76
+pzlog.txt1:01-02 13:06:25:043756714  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 83
+pzlog.txt1:01-02 13:06:25:043766610  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 13
+pzlog.txt1:01-02 13:06:25:043778017  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::12 type 0 instanceid 1
+pzlog.txt1:01-02 13:06:25:043788433  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::12 type 0 instanceid 62
+pzlog.txt1:01-02 13:06:25:043798537  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion0_AWB0_cam1 type 12 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:043808694  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:043819579  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:043830360  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 3
+pzlog.txt1:01-02 13:06:25:043840621  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 9
+pzlog.txt1:01-02 13:06:25:043851142  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 1
+pzlog.txt1:01-02 13:06:25:043861350  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 36
+pzlog.txt1:01-02 13:06:25:043871506  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 35
+pzlog.txt1:01-02 13:06:25:043882392  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 61
+pzlog.txt1:01-02 13:06:25:043892392  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 0 instanceid 65
+pzlog.txt1:01-02 13:06:25:043902704  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion0_StatsParse0_cam1 type 9 instanceid 0   inputnum7
+pzlog.txt1:01-02 13:06:25:043912756  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:043923017  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 9
+pzlog.txt1:01-02 13:06:25:043933381  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:043943642  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 36
+pzlog.txt1:01-02 13:06:25:043953694  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 35
+pzlog.txt1:01-02 13:06:25:043963694  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 61
+pzlog.txt1:01-02 13:06:25:043973850  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 65
+pzlog.txt1:01-02 13:06:25:043984787  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 1 instanceid 20
+pzlog.txt1:01-02 13:06:25:043995204  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9320 DoProcessingNodeFinalizeInputRequirement() pzpz doProcessingNode::9 type 1 instanceid 29
+pzlog.txt1:01-02 13:06:25:044005881  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion0_StatsParse1_cam1 type 9 instanceid 1   inputnum2
+pzlog.txt1:01-02 13:06:25:044016923  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 20
+pzlog.txt1:01-02 13:06:25:044028329  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 29
+pzlog.txt1:01-02 13:06:25:044479475  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:8998 StreamIntentBackwardWalk() pzpzNode::MultiCameraRealtimeWithFusion0_IFE0_cam1 type 65536 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:044489735  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 65536  nodeinstanceId 0  node port id 2
+pzlog.txt1:01-02 13:06:25:044501350  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9006 StreamIntentBackwardWalk() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:044535464  18529  18923 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraRealtimeWithFusion0_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:044545673  18529  18923 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraRealtimeWithFusion0_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:044555933  18529  18923 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2832 CreateNodes() : pzpz MultiCameraRealtimeWithFusion0_0 berfore fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:044566402  18529  18923 E CamX: [ERROR][CORE   ] camxpipeline.cpp:2853 CreateNodes() pzpz node pipelinename MultiCameraRealtimeWithFusion0, typeid 0, instanceid Sensor0, is sourcebuferr 0
+pzlog.txt1:01-02 13:06:25:044577339  18529  18923 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:11597 FillPipelineInputOptions() pzpzNode::MultiCameraRealtimeWithFusion0_Sensor0_cam1 type 0 instanceid 0   inputnum0
+pzlog.txt1:01-02 13:06:25:044588069  18529  18923 I CamX: [CORE_CFG][CHI    ] camxpipeline.cpp:2885 CreateNodes() : pzpz MultiCameraRealtimeWithFusion0_0 after fillpipelineInputOptions -- input PortId: 0, NodeId: 0, InstanceId: 0, portSourceTypeId : 0x0
+pzlog.txt1:01-02 13:06:25:049044475  18529  18923 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5446 CreatePipelineDescriptor() pzpz createpipdes 3 MultiCameraRealtimeWithFusion0 numInputs: 0
+pzlog.txt1:01-02 13:06:25:049055412  18529  18923 E CamX: [ERROR][CHI    ] camxchicontext.cpp:5491 CreatePipelineDescriptor() pzpz createpipdes 4 MultiCameraRealtimeWithFusion0 numInputs: 1
+pzlog.txt1:01-02 13:06:25:049072912  18529  18923 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:5503 CreatePipelineDescriptor() MultiCameraRealtimeWithFusion0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 0, InstanceId: 0, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:050922548  18529  18535 E CamX: [ERROR][CORE   ] camxsession.cpp:79 Session() pzpz session struct
+pzlog.txt1:01-02 13:06:25:050934475  18529  18535 E CamX: [ERROR][CHI    ] camxchisession.cpp:129 Initialize() pzpz MultiCameraRealtimeWithFusion0 numInputs: 1
+pzlog.txt1:01-02 13:06:25:050946350  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchisession.cpp:141 Initialize() MultiCameraRealtimeWithFusion0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 0, InstanceId: 0, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:050957079  18529  18535 E CamX: [ERROR][CHI    ] camxchisession.cpp:129 Initialize() pzpz MultiCameraRealtimeWithFusion1 numInputs: 1
+pzlog.txt1:01-02 13:06:25:050967235  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchisession.cpp:141 Initialize() MultiCameraRealtimeWithFusion1: pzpz pipeline descriptor -- input PortId: 0, NodeId: 0, InstanceId: 0, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:050977808  18529  18535 E CamX: [ERROR][CHI    ] camxchisession.cpp:129 Initialize() pzpz MultiCameraRealtimeWithFusion2 numInputs: 1
+pzlog.txt1:01-02 13:06:25:050987912  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchisession.cpp:141 Initialize() MultiCameraRealtimeWithFusion2: pzpz pipeline descriptor -- input PortId: 0, NodeId: 0, InstanceId: 0, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:051081089  18529  18535 E CamX: [ERROR][CORE   ] camxsession.cpp:2096 Initialize() pzpz session initialize
+pzlog.txt1:01-02 13:06:25:069664214  18529  18535 E CamX: [ERROR][CORE   ] camxsession.cpp:3111 InitializeNewPipelines() pzpz session initialize new pipeline 
+pzlog.txt1:01-02 13:06:25:076659579  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion2_Sensor0_cam2 type 0 instanceid 0   inputnum0
+pzlog.txt1:01-02 13:06:25:076695777  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion2_IFE0_cam2 type 65536 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:076708694  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65536  nodeinstanceId 0  node port id 2
+pzlog.txt1:01-02 13:06:25:076719579  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:077386141  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion2_StatsParse1_cam2 type 9 instanceid 1   inputnum2
+pzlog.txt1:01-02 13:06:25:077396610  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 20
+pzlog.txt1:01-02 13:06:25:077406975  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 29
+pzlog.txt1:01-02 13:06:25:077658485  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion2_StatsParse0_cam2 type 9 instanceid 0   inputnum7
+pzlog.txt1:01-02 13:06:25:077669735  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:077679579  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 9
+pzlog.txt1:01-02 13:06:25:077689787  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:077699787  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 36
+pzlog.txt1:01-02 13:06:25:077711402  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 35
+pzlog.txt1:01-02 13:06:25:077727444  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 61
+pzlog.txt1:01-02 13:06:25:077737704  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 65
+pzlog.txt1:01-02 13:06:25:077874891  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion2_AWB0_cam2 type 12 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:077885569  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:077896194  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:082845569  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion2_Stats0_cam2 type 1 instanceid 0   inputnum6
+pzlog.txt1:01-02 13:06:25:082856350  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:082866350  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:082876662  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 37
+pzlog.txt1:01-02 13:06:25:082887131  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 76
+pzlog.txt1:01-02 13:06:25:082897391  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 83
+pzlog.txt1:01-02 13:06:25:082907183  18529  18970 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 13
+pzlog.txt1:01-02 13:06:25:092778902  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion1_Sensor0_cam0 type 0 instanceid 0   inputnum0
+pzlog.txt1:01-02 13:06:25:092855412  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion1_IFE0_cam0 type 65536 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:092869266  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion0_Sensor0_cam1 type 0 instanceid 0   inputnum0
+pzlog.txt1:01-02 13:06:25:092876714  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65536  nodeinstanceId 0  node port id 2
+pzlog.txt1:01-02 13:06:25:092893954  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:092920464  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion0_IFE0_cam1 type 65536 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:092936975  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65536  nodeinstanceId 0  node port id 2
+pzlog.txt1:01-02 13:06:25:092953225  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 0  nodeinstanceId 0  node port id 0
+pzlog.txt1:01-02 13:06:25:093930308  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion1_StatsParse1_cam0 type 9 instanceid 1   inputnum2
+pzlog.txt1:01-02 13:06:25:093939110  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion0_StatsParse1_cam1 type 9 instanceid 1   inputnum2
+pzlog.txt1:01-02 13:06:25:093948746  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 20
+pzlog.txt1:01-02 13:06:25:093955725  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 20
+pzlog.txt1:01-02 13:06:25:093965881  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 29
+pzlog.txt1:01-02 13:06:25:093972391  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 1  node port id 29
+pzlog.txt1:01-02 13:06:25:094328537  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion0_StatsParse0_cam1 type 9 instanceid 0   inputnum7
+pzlog.txt1:01-02 13:06:25:094343902  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion1_StatsParse0_cam0 type 9 instanceid 0   inputnum7
+pzlog.txt1:01-02 13:06:25:094347964  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:094367079  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:094369944  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 9
+pzlog.txt1:01-02 13:06:25:094392339  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 9
+pzlog.txt1:01-02 13:06:25:094393798  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:094413537  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 36
+pzlog.txt1:01-02 13:06:25:094416819  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:094431610  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 35
+pzlog.txt1:01-02 13:06:25:094437652  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 36
+pzlog.txt1:01-02 13:06:25:094447600  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 61
+pzlog.txt1:01-02 13:06:25:094454891  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 35
+pzlog.txt1:01-02 13:06:25:094463746  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 65
+pzlog.txt1:01-02 13:06:25:094472027  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 61
+pzlog.txt1:01-02 13:06:25:094498537  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 9  nodeinstanceId 0  node port id 65
+pzlog.txt1:01-02 13:06:25:094698954  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion0_AWB0_cam1 type 12 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:094721402  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:094736037  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:094764162  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion1_AWB0_cam0 type 12 instanceid 0   inputnum2
+pzlog.txt1:01-02 13:06:25:094780569  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 1
+pzlog.txt1:01-02 13:06:25:094796871  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 12  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:101169110  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion0_Stats0_cam1 type 1 instanceid 0   inputnum6
+pzlog.txt1:01-02 13:06:25:101180464  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:101190725  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:101200881  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 37
+pzlog.txt1:01-02 13:06:25:101211037  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 76
+pzlog.txt1:01-02 13:06:25:101221089  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 83
+pzlog.txt1:01-02 13:06:25:101231037  18529  18968 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 13
+pzlog.txt1:01-02 13:06:25:108559214  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraRealtimeWithFusion1_Stats0_cam0 type 1 instanceid 0   inputnum6
+pzlog.txt1:01-02 13:06:25:108575256  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 3
+pzlog.txt1:01-02 13:06:25:108586089  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 62
+pzlog.txt1:01-02 13:06:25:108596298  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 37
+pzlog.txt1:01-02 13:06:25:108606610  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 76
+pzlog.txt1:01-02 13:06:25:108616506  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 83
+pzlog.txt1:01-02 13:06:25:108778694  18529  18969 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 1  nodeinstanceId 0  node port id 13
+pzlog.txt1:01-02 13:06:25:153337235  18529  18535 E CamX: [ERROR][CORE   ] camxsession.cpp:79 Session() pzpz session struct
+pzlog.txt1:01-02 13:06:25:153353485  18529  18535 E CamX: [ERROR][CHI    ] camxchisession.cpp:129 Initialize() pzpz MultiCameraSATWithBoe0 numInputs: 3
+pzlog.txt1:01-02 13:06:25:153367600  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchisession.cpp:141 Initialize() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 50, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:153378850  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchisession.cpp:141 Initialize() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 51, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:153389579  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchisession.cpp:141 Initialize() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 52, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:153400516  18529  18535 E CamX: [ERROR][CORE   ] camxsession.cpp:2096 Initialize() pzpz session initialize
+pzlog.txt1:01-02 13:06:25:154036506  18529  18535 E CamX: [ERROR][CHI    ] camxchicontext.cpp:4902 SetPipelineDescriptorInputStream() pzpz MultiCameraSATWithBoe0 numInputs: 3
+pzlog.txt1:01-02 13:06:25:154047391  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4914 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 50, InputStreamWrapper: 0xb400007188804450
+pzlog.txt1:01-02 13:06:25:154059423  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4922 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz Buffer descriptor -- input PortId: 0, NodeId: 255, InstanceId: 50
+pzlog.txt1:01-02 13:06:25:154070048  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4914 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 51, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:154080933  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4922 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz Buffer descriptor -- input PortId: 0, NodeId: 255, InstanceId: 50
+pzlog.txt1:01-02 13:06:25:154091350  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4914 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 52, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:154101298  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4922 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz Buffer descriptor -- input PortId: 0, NodeId: 255, InstanceId: 50
+pzlog.txt1:01-02 13:06:25:154144787  18529  18535 E CamX: [ERROR][CHI    ] camxchicontext.cpp:4902 SetPipelineDescriptorInputStream() pzpz MultiCameraSATWithBoe0 numInputs: 3
+pzlog.txt1:01-02 13:06:25:154155985  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4914 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 50, InputStreamWrapper: 0xb400007188804450
+pzlog.txt1:01-02 13:06:25:154166350  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4922 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz Buffer descriptor -- input PortId: 0, NodeId: 255, InstanceId: 51
+pzlog.txt1:01-02 13:06:25:154176975  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4914 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 51, InputStreamWrapper: 0xb400007188802850
+pzlog.txt1:01-02 13:06:25:154187600  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4922 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz Buffer descriptor -- input PortId: 0, NodeId: 255, InstanceId: 51
+pzlog.txt1:01-02 13:06:25:154198069  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4914 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 52, InputStreamWrapper: 0x0
+pzlog.txt1:01-02 13:06:25:154220152  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4922 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz Buffer descriptor -- input PortId: 0, NodeId: 255, InstanceId: 51
+pzlog.txt1:01-02 13:06:25:154263173  18529  18535 E CamX: [ERROR][CHI    ] camxchicontext.cpp:4902 SetPipelineDescriptorInputStream() pzpz MultiCameraSATWithBoe0 numInputs: 3
+pzlog.txt1:01-02 13:06:25:154273589  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4914 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 50, InputStreamWrapper: 0xb400007188804450
+pzlog.txt1:01-02 13:06:25:154284475  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4922 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz Buffer descriptor -- input PortId: 0, NodeId: 255, InstanceId: 52
+pzlog.txt1:01-02 13:06:25:154297391  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4914 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 51, InputStreamWrapper: 0xb400007188802850
+pzlog.txt1:01-02 13:06:25:154309891  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4922 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz Buffer descriptor -- input PortId: 0, NodeId: 255, InstanceId: 52
+pzlog.txt1:01-02 13:06:25:154320412  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4914 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz pipeline descriptor -- input PortId: 0, NodeId: 255, InstanceId: 52, InputStreamWrapper: 0xb4000071888016d0
+pzlog.txt1:01-02 13:06:25:154331037  18529  18535 I CamX: [CORE_CFG][CHI    ] camxchicontext.cpp:4922 SetPipelineDescriptorInputStream() MultiCameraSATWithBoe0: pzpz Buffer descriptor -- input PortId: 0, NodeId: 255, InstanceId: 52
+pzlog.txt1:01-02 13:06:25:156903641  18529  18535 E CamX: [ERROR][CORE   ] camxsession.cpp:3111 InitializeNewPipelines() pzpz session initialize new pipeline 
+pzlog.txt1:01-02 13:06:25:161618641  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.memcpy52_cam1 type 255 instanceid 52   inputnum1
+pzlog.txt1:01-02 13:06:25:161673746  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 52  node port id 0
+pzlog.txt1:01-02 13:06:25:161948329  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gpu26_cam1 type 255 instanceid 26   inputnum1
+pzlog.txt1:01-02 13:06:25:161965621  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 26  node port id 0
+pzlog.txt1:01-02 13:06:25:162448121  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gme21_cam1 type 255 instanceid 21   inputnum2
+pzlog.txt1:01-02 13:06:25:162463641  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 21  node port id 0
+pzlog.txt1:01-02 13:06:25:162516089  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 21  node port id 1
+pzlog.txt1:01-02 13:06:25:162899996  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_EVA30_cam1 type 65543 instanceid 30   inputnum8
+pzlog.txt1:01-02 13:06:25:162915621  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 3
+pzlog.txt1:01-02 13:06:25:162931194  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 5
+pzlog.txt1:01-02 13:06:25:162947912  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 33
+pzlog.txt1:01-02 13:06:25:162965308  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 9
+pzlog.txt1:01-02 13:06:25:162982183  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 6
+pzlog.txt1:01-02 13:06:25:163098537  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 34
+pzlog.txt1:01-02 13:06:25:163115621  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 35
+pzlog.txt1:01-02 13:06:25:163132391  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 30  node port id 47
+pzlog.txt1:01-02 13:06:25:164047131  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_IPE23_cam1 type 65538 instanceid 23   inputnum6
+pzlog.txt1:01-02 13:06:25:164062600  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 2
+pzlog.txt1:01-02 13:06:25:164078433  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 0
+pzlog.txt1:01-02 13:06:25:164094110  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 11
+pzlog.txt1:01-02 13:06:25:164110204  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 1
+pzlog.txt1:01-02 13:06:25:164127079  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 40
+pzlog.txt1:01-02 13:06:25:164145569  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 23  node port id 41
+pzlog.txt1:01-02 13:06:25:164666141  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.memcpy51_cam1 type 255 instanceid 51   inputnum1
+pzlog.txt1:01-02 13:06:25:164684891  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 51  node port id 0
+pzlog.txt1:01-02 13:06:25:164909944  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gpu16_cam1 type 255 instanceid 16   inputnum1
+pzlog.txt1:01-02 13:06:25:164925464  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 16  node port id 0
+pzlog.txt1:01-02 13:06:25:165655464  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gme11_cam1 type 255 instanceid 11   inputnum2
+pzlog.txt1:01-02 13:06:25:165671454  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 11  node port id 0
+pzlog.txt1:01-02 13:06:25:165686610  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 11  node port id 1
+pzlog.txt1:01-02 13:06:25:166017444  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_EVA20_cam1 type 65543 instanceid 20   inputnum8
+pzlog.txt1:01-02 13:06:25:166035516  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 3
+pzlog.txt1:01-02 13:06:25:166051141  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 5
+pzlog.txt1:01-02 13:06:25:166066298  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 33
+pzlog.txt1:01-02 13:06:25:166081350  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 9
+pzlog.txt1:01-02 13:06:25:166096402  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 6
+pzlog.txt1:01-02 13:06:25:166111819  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 34
+pzlog.txt1:01-02 13:06:25:166127079  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 35
+pzlog.txt1:01-02 13:06:25:166209266  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 20  node port id 47
+pzlog.txt1:01-02 13:06:25:166981141  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_IPE13_cam1 type 65538 instanceid 13   inputnum6
+pzlog.txt1:01-02 13:06:25:166997444  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 2
+pzlog.txt1:01-02 13:06:25:167063016  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 0
+pzlog.txt1:01-02 13:06:25:167080412  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 11
+pzlog.txt1:01-02 13:06:25:167150256  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 1
+pzlog.txt1:01-02 13:06:25:167167027  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 40
+pzlog.txt1:01-02 13:06:25:167182548  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 13  node port id 41
+pzlog.txt1:01-02 13:06:25:167620829  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.memcpy50_cam1 type 255 instanceid 50   inputnum1
+pzlog.txt1:01-02 13:06:25:167637183  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 50  node port id 0
+pzlog.txt1:01-02 13:06:25:167903694  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gpu6_cam1 type 255 instanceid 6   inputnum1
+pzlog.txt1:01-02 13:06:25:167955516  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 6  node port id 0
+pzlog.txt1:01-02 13:06:25:168463589  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.gme1_cam1 type 255 instanceid 1   inputnum2
+pzlog.txt1:01-02 13:06:25:168483069  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 1  node port id 0
+pzlog.txt1:01-02 13:06:25:168532339  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 1  node port id 1
+pzlog.txt1:01-02 13:06:25:169067600  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_EVA10_cam1 type 65543 instanceid 10   inputnum8
+pzlog.txt1:01-02 13:06:25:169085256  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 3
+pzlog.txt1:01-02 13:06:25:169101089  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 5
+pzlog.txt1:01-02 13:06:25:169117287  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 33
+pzlog.txt1:01-02 13:06:25:169133277  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 9
+pzlog.txt1:01-02 13:06:25:169148694  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 6
+pzlog.txt1:01-02 13:06:25:169164006  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 34
+pzlog.txt1:01-02 13:06:25:169179110  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 35
+pzlog.txt1:01-02 13:06:25:169227964  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65543  nodeinstanceId 10  node port id 47
+pzlog.txt1:01-02 13:06:25:170179371  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_IPE3_cam1 type 65538 instanceid 3   inputnum6
+pzlog.txt1:01-02 13:06:25:170195204  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 2
+pzlog.txt1:01-02 13:06:25:170210985  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 0
+pzlog.txt1:01-02 13:06:25:170238589  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 11
+pzlog.txt1:01-02 13:06:25:170254839  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 1
+pzlog.txt1:01-02 13:06:25:170270048  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 40
+pzlog.txt1:01-02 13:06:25:170285360  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 65538  nodeinstanceId 3  node port id 41
+pzlog.txt1:01-02 13:06:25:170805100  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9042 StreamIntentForwardWalk() pzpzNode::MultiCameraSATWithBoe0_com.qti.node.boeproc4_cam1 type 255 instanceid 4   inputnum3
+pzlog.txt1:01-02 13:06:25:170820569  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 4  node port id 0
+pzlog.txt1:01-02 13:06:25:170835569  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 4  node port id 1
+pzlog.txt1:01-02 13:06:25:170854996  18529  18979 E CamX: [ERROR][CORE   ] camxnodelegacy.cpp:9050 StreamIntentForwardWalk() pzpzpz node id 255  nodeinstanceId 4  node port id 2
+pzlog.txt1://pzpz

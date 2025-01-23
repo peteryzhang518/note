@@ -62,11 +62,17 @@ https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks#Combining_the_use_of_U
 
 # solarized
 如果发现一直颜色异常，可能是因为solarized的配置没有配置bkg和fkg等背景色和前景色，可以使用solarized去配置
+使用solarized8可以解决这个问题
 
 # docker
 1. run 命令是从一个已经有的镜像中创建一个容器
 2. start是从创建好的容器中打开一个容器
 3. exec是进入某一个已经打开的容器
+
+# run
+docker run --name ubuntu_20.04 -it -d -v {/home/#####}:/home/bsp/workspace -v /lib/modules:/lib/modules --privileged -v /dev/:/dev -v /run/udev:/run/udev 192.168.6.131:5000/ubuntu_20.04_bsp:v1.0 /bin/bash
+docker start ubuntu_20.04
+docker exec -it -u 1000:1000 -w /home/bsp ubuntu_20.04  /bin/bash
 
 
 # fd
