@@ -50,3 +50,6 @@ git commit --amend --author="peteryzhang518 <peteryzhang518@gmail.com>"
 
 
 用的邮箱地址没有注册账号的话，提交会被标记为未有用户地址,但不影响提交
+
+# git commit 缺少sign off 邮件
+使用git  commit  -m

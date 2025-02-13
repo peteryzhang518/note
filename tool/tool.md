@@ -83,3 +83,9 @@ docker exec -it -u 1000:1000 -w /home/bsp ubuntu_20.04  /bin/bash
  sudo apt install *** -o Acquire::http::Proxy="http://192.168.6.202:8080"
  curl -k -O ***
 
+# linux设置app
+1. export PATH=$PATH:/home/user/myapp
+2. sudo cp /home/user/myapp/myprogram /usr/local/bin/
+sudo chmod +x /usr/local/bin/myprogram
+3. sudo ln -s /home/user/myapp/myprogram /usr/local/bin/myprogram
+4. echo 'alias myapp="/home/user/myapp/myprogram"' >> ~/.bashrc
