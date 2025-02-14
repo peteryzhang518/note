@@ -53,3 +53,17 @@ git commit --amend --author="peteryzhang518 <peteryzhang518@gmail.com>"
 
 # git commit 缺少sign off 邮件
 使用git  commit  -m
+
+# git rebase 
+1. 切换到origin分支
+2. 把origin分支拉到最新
+3. 切换到使用的功能分支
+4. git rebase origin 把功能分支变基到origin分支
+
+当gitrebase起冲突时，优先使用主分支内容
+git rebase -Xtheirs origin/main
+
+当gitrebase起冲突时，优先使用当前功能分支内容
+git rebase -Xours origin/main
+
+
