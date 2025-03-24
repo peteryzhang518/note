@@ -178,3 +178,9 @@ file: vendor/qcom/proprietary/camx/src/csl/hw/camxsyncmanager.cpp
    |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--> m_pHALOps->process_capture_result(m_logicalCameraInfo[cameraID].m_pCamera3Device, pResult); //这里就将result给到上面了
 
 
+
+
+
+# 编译logcial camera
+在oem multi camera 的config里面
+编译时使用vendor/qcom/proprietary/chi-cdk/tools/logicalcameragenerator/logicalcamcompiler.py

@@ -67,3 +67,4 @@ git rebase -Xtheirs origin/main
 git rebase -Xours origin/main
 
 
+git rebase -i HEAD~3

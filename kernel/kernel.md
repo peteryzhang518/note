@@ -352,3 +352,4 @@ for(;;)                                #不应该到达这里
 - uboot就是一种专门的bootloader形式，一种实体形式，具体实现，你可以在移植linux的时候自己编写uboot
 - bootloader也分等级，上面提到的stm32默认的这种属于一级bootloader。uboot这种形式的属于二级bootloader
 
+

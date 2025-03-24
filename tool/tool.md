@@ -69,8 +69,50 @@ https://wiki.archlinux.org/index.php/GRUB/Tips_and_tricks#Combining_the_use_of_U
 2. start是从创建好的容器中打开一个容器
 3. exec是进入某一个已经打开的容器
 
+docker pull
+docker image
+docker run
+docker ps -a
+docker start 
+docker ps -a
+docker exec
+
 # run
+
+sudo docker run --name pz8750 -it -d \
+    -v /home/p/code/8750:/home/p/docker8750 \
+    -v /lib/modules:/lib/modules \
+    --privileged \
+    -v /dev/:/dev \
+    -v /run/udev:/run/udev \
+    192.168.6.131:5000/ubuntu_22.04_bsp:v1.0 /bin/bash
+
+
 docker run --name ubuntu_20.04 -it -d -v {/home/#####}:/home/bsp/workspace -v /lib/modules:/lib/modules --privileged -v /dev/:/dev -v /run/udev:/run/udev 192.168.6.131:5000/ubuntu_20.04_bsp:v1.0 /bin/bash
+
+
+sudo docker run：运行一个新的容器。
+--name pz8750：为容器指定名称 pz8750，方便管理。
+-it：交互模式：
+-i：保持输入通道打开（适用于交互式 shell）。
+-t：分配一个伪终端（TTY）。
+-d：让容器在后台运行（daemon 模式）。
+-v /home/p/code/8750:/home/p/docker8750：
+将宿主机目录 /home/p/code/8750 挂载到容器的 /home/p/docker8750，这样可以在宿主机和容器之间共享文件。
+-v /lib/modules:/lib/modules：
+将宿主机的 /lib/modules 挂载到容器内，通常用于加载宿主机的内核模块（例如驱动程序）。
+--privileged：
+给予容器更高的权限，允许访问宿主机的设备文件、管理网络等。
+-v /dev/:/dev：
+将宿主机的 /dev/ 设备文件挂载到容器，使容器能够访问硬件设备。
+-v /run/udev:/run/udev：
+挂载 udev 设备管理系统相关的目录，通常用于支持热插拔设备。
+192.168.6.131:5000/ubuntu_22.04_bsp:v1.0：
+使用镜像 ubuntu_22.04_bsp:v1.0（来自 192.168.6.131:5000 的私有 Docker 仓库） 作为容器的基础环境。
+/bin/bash：
+指定启动 bash 进程，确保容器启动时有一个 shell 运行。
+
+
 docker start ubuntu_20.04
 docker exec -it -u 1000:1000 -w /home/bsp ubuntu_20.04  /bin/bash
 
@@ -89,3 +131,57 @@ docker exec -it -u 1000:1000 -w /home/bsp ubuntu_20.04  /bin/bash
 sudo chmod +x /usr/local/bin/myprogram
 3. sudo ln -s /home/user/myapp/myprogram /usr/local/bin/myprogram
 4. echo 'alias myapp="/home/user/myapp/myprogram"' >> ~/.bashrc
+
+
+# addr2line
+1. 编译时需要有调试选项
+ - ninja 修改 CMake 构建
+  1. set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O0")
+     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g -O0")
+  2. cmake -G Ninja -DCMAKE_BUILD_TYPE=Debug ..
+     ninja
+ - 直接修改 build.ninja
+  1. sed -i 's/-O2/-O0 -g/g' build.ninja
+  2. ninja
+ - mmm修改 Android.mk
+  1. LOCAL_CFLAGS += -g -O0
+     LOCAL_CPPFLAGS += -g -O0
+  2. mmm path/to/module
+ - mmm 修改 Android.bp
+  1. cc_library_shared {
+     name: "mylib",
+     srcs: ["mylib.cpp"],
+     cflags: ["-g", "-O0"],
+     }
+  2. mmm path/to/module
+
+2. 验证是否生效
+readelf -S out/target/product/sun/symbols/vendor/lib64/hw/camera.qcom.so
+ 1. 生效o
+  [29] .debug_loclists   PROGBITS         0000000000000000  0083d898
+  [30] .debug_abbrev     PROGBITS         0000000000000000  00ceb156
+  [31] .debug_info       PROGBITS         0000000000000000  00e3e557
+  [32] .debug_rnglists   PROGBITS         0000000000000000  02caa9bb
+  [33] .debug_str_o[...] PROGBITS         0000000000000000  02e5843c
+  [34] .debug_str        PROGBITS         0000000000000000  0346fc10
+  [35] .debug_addr       PROGBITS         0000000000000000  03cca70a
+  [37] .debug_line       PROGBITS         0000000000000000  03d9e181
+  [38] .debug_line_str   PROGBITS         0000000000000000  0426b500
+  [39] .debug_ranges     PROGBITS         0000000000000000  04284c39
+ 2. 未生效
+  [30] .gnu_debugdata    PROGBITS         0000000000000000  0083d9db
+3. 确定是否需要基地址去计算偏移地址
+readelf -h  out/target/product/sun/symbols/vendor/lib64/hw/camera.qcom.so | rg type
+ 1. 不需要
+  Type:                              DYN (Shared object file)
+ 2. 需要
+未遇到这种情况
+
+4. 解析
+-e 指定要解析的可执行文件或共享库（通常是未剥离符号的 .so 或 .elf 文件）。
+-f 显示函数名（默认情况下只显示文件名和行号，-f 让其额外输出对应的函数名）。
+-C 解码 C++ 符号，将 _Z 这种被 C++ 编译器修饰的符号（mangled name）转换回可读的 C++ 函数名。
+-i 显示内联函数信息，如果该地址命中的是内联函数，会显示完整的内联展开路径。
+
+
+
