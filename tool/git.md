@@ -35,8 +35,8 @@ Host github.com
 # git 命令详解
  git branch -a
 本地分支    ：* localconfig
-远端head    ：  remotes/githubconfig/HEAD -> githubconfig/main
-远端分支    ：  remotes/githubconfig/main
+远端head所在    ：  remotes/githubconfig/HEAD -> githubconfig/main
+远端分支有的分支，次仓库只有一个分支,也是head所在分支    ：  remotes/githubconfig/main
 
 p@pzboebigcomputer:~/note$ git branch -a
 * localnote
