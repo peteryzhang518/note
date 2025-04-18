@@ -184,4 +184,17 @@ readelf -h  out/target/product/sun/symbols/vendor/lib64/hw/camera.qcom.so | rg t
 -i 显示内联函数信息，如果该地址命中的是内联函数，会显示完整的内联展开路径。
 
 
+# minicom
+sudo dmesg
 
+
+[198334.841775] usb 1-3: USB disconnect, device number 26
+[198336.203230] usb 1-2: new full-speed USB device number 27 using xhci_hcd
+[198336.331511] usb 1-2: New USB device found, idVendor=1a86, idProduct=55d3, bcdDevice= 4.45
+[198336.331514] usb 1-2: New USB device strings: Mfr=0, Product=2, SerialNumber=3
+[198336.331514] usb 1-2: Product: USB Single Serial
+[198336.331515] usb 1-2: SerialNumber: 58FC078538
+[198336.332928] cdc_acm 1-2:1.0: ttyACM0: USB ACM device
+
+
+sudo minicom -D /dev/ttyACM0

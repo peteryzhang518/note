@@ -105,3 +105,11 @@ LINUX/android/vendor/qcom/opensource/iot-media/umd-daemon/daemon/umd-camera.cpp
 LINUX/android/kernel_platform/common/drivers/usb/gadget/function/f_uvc.c
 LINUX/android/kernel_platform/msm-kernel/drivers/usb/gadget/function/f_uvc.c
 
+# gpu node property id
+ChiNodeCapsGpu
+vendor/qcom/proprietary/chi-cdk/api/node/chinode.h
+vendor/qcom/proprietary/chi-cdk/oem/qcom/node/gpu/camxchinodegpu.cpp
+vendor/qcom/proprietary/camx/src/core/chi/camxchinodewrapper.cpp
+
+# usage 
+LINUX/android/hardware/libhardware/include/hardware/gralloc.h

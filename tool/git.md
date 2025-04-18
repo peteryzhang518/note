@@ -38,6 +38,17 @@ Host github.com
 远端head    ：  remotes/githubconfig/HEAD -> githubconfig/main
 远端分支    ：  remotes/githubconfig/main
 
+p@pzboebigcomputer:~/note$ git branch -a
+* localnote
+  remotes/githubnote/HEAD -> githubnote/main
+  remotes/githubnote/main
+
+p@pzboebigcomputer:~/note$ git remote -v
+githubnote	git@github.com:peteryzhang518/note.git (fetch)
+githubnote	git@github.com:peteryzhang518/note.git (push)
+
+p@pzboebigcomputer:~/note$ git push githubnote localnote:main
+
 
 # git 不会在github上显示的
 如果用的名字不是同一个电子邮件地址，是不会在github上显示的
